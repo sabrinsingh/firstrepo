@@ -1,0 +1,447 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p
+{
+    font-size: 14px;
+}
+
+/*header*/
+.header{
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    -moz-background-origin: cover;
+    -o-background-origin: cover;
+    -webkit-background-origin: cover; 
+    }
+
+.header-overlay{
+    background-color: rgba(31,31,31,0.70);
+}
+
+.logo{
+    padding-bottom:50px;
+}
+
+.header-text h1{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.header-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.header-btns{
+    margin:auto;
+     }
+
+.header-btns .btn{
+    color:antiquewhite; 
+}
+
+.header-btns .fa:hover {
+    background-color: transparent;
+    text-transform: uppercase;
+    color:antiquewhite;
+    border-color: antiquewhite;
+}
+
+
+.fa-download:hover {
+    background-color: transparent;
+    text-transform: uppercase;
+    color:antiquewhite;
+    border-color: antiquewhite;
+}
+
+.header-iphone-img img{
+    width:100%;
+}
+
+/*==============ABOUT SECTION==============*/
+
+.section-title{
+    padding-top: 70px;
+    padding-bottom:20px;
+}
+
+.section-title h1{
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title p{
+    padding-top:40px;
+}
+
+.choose-us{
+    padding-top: 30px;
+    padding-bottom:50px;
+}
+
+.why_choose_us_title h2{
+    font-weight: bold;
+}
+
+.choose_us_topic h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-iphone{
+    width:100%;
+}
+
+
+/*==============TESTIMONIAL SECTION==============*/
+
+.testimonial{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.testimonial-overlay{
+   background-color: rgba(31,31,31,0.70); 
+}
+
+.carousel-indicators{
+    padding-bottom: -10px;
+}
+
+.carousel-item img{
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding:20px;
+}
+
+.testimonial-caption{
+    padding-bottom: 70px;
+}
+
+.testimonial-caption h2,  .testimonial-caption h4{
+    color:#129CF3;
+}
+
+.testimonial-caption h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.testimonial-caption h4 span , .testimonial-caption p{
+    color:azure;
+}
+
+/*==============FEATURE SECTIONS==============*/
+
+.inner-wrapper {
+    margin:20px auto;
+}
+
+.left-feature-item{
+    position: relative;
+    padding-right: 90px;
+    margin: 30px 0;
+    text-align: right;
+}
+
+.left-feature-item-icon{
+    position: absolute;
+    right: 0;
+    top:-40px;
+    font-size: 40px;
+    margin: 30px 0;
+    text-align: center;
+    color:#129cf3;
+}
+
+.left-feature-item h3{
+    text-transform: uppercase;
+    font-size: 20px;    
+    font-weight: 510;
+}
+
+.feature-iphone img{
+    width: 100%;
+}
+
+.right-feature-item{
+    position: relative;
+    padding-left: 90px;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.right-feature-item-icon{
+    position: absolute;
+    left: 0;
+    top:-40px;
+    font-size: 40px;
+    margin: 30px 0;
+    text-align: center;
+    color:#129cf3;
+}
+
+.right-feature-item h3{
+    text-transform: uppercase;
+    font-size: 20px;    
+    font-weight: 510;
+}
+
+
+/*=========PURCHASE NOW SECTION========*/
+
+.purchase-now{
+    background-color: #1a1a1a;
+    padding: 100px 0;
+}
+
+.purchase-now p{
+    color:antiquewhite;
+    font-size: 18px;
+    font-weight:300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited{
+    background-color: firebrick;
+    border: 1px solid;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color:antiquewhite;
+}
+
+.btn-purchase-now:hover{
+    border: 1px solid;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color:antiquewhite;
+    background-color: fuchsia;
+    transition: all 1s;
+}
+
+
+/*=================COUNTER SECTION===================*/
+
+.counter{
+    background-image: url(../images/counter-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter-overlay{
+   background-color: rgba(31,31,31,0.70); 
+}
+
+.counter-item{
+    padding: 70px 0;
+}
+
+.counter-item .fa{
+    color: antiquewhite;
+    font-size: 60px;
+}
+
+.counter-item h2, .counter-item p{
+    color:antiquewhite;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/*=================DOWNLOAD NOW SECTION===================*/
+
+.donwload-now img
+{
+    width:100%;
+}
+.available-on{
+    background-color: #1a1a1a;
+    position:relative;
+}
+.available-title{
+    padding:75px 0;
+}
+
+.available-title h1{
+    color:antiquewhite;
+}
+
+.available-title p{
+    color:#b5b5b5;
+}
+
+
+.available-on-item
+{
+    padding:75px 5px;
+    color:#b5b5b5;
+}
+
+.available-on-item:hover {
+    background-color: darkslategray;
+    transition: all 1s;
+}
+
+.available-on-item i
+{
+    font-size: 40px;
+    color: antiquewhite;
+    opacity: 1;
+}
+
+.available-on-item a{
+    text-decoration: none;
+}
+
+.available-on-inner {
+    font-size: 20px;
+    color: antiquewhite;
+    width:100%;
+}
+
+.available-on-inner h2{
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 20px 0;
+/*    opacity:0;*/
+}
+
+/*==========CONTACT US SECTION=============*/
+.contact-us{
+    margin-bottom: 40px;
+}
+
+.contact-us-form .form-control{
+    display:block;
+    width:100%;
+    height:50px;
+    padding:6px 12px;
+    font-size:14px;
+    line-height:21px;
+    color:#555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity:.8;
+    outline: 0px !important;
+    transition: all 1s;
+}
+
+#message {
+    height: 117px;
+    resize:none;
+}
+
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    width:100%;
+    background-color: transparent;
+    border: 1px solid #129cf3;
+    border-radius: 4px;
+    font-size:18px;
+    color:#129CF3;
+    outline: 0px !important;
+    transition: all 1s;
+}
+
+.submit-btn:hover {
+   background:#129CF3;
+   color:antiquewhite;
+}
+
+.social-icons ul{
+    margin:20px;
+    padding:0;
+    text-align:center;
+}
+
+.social-icons ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.social-icons ul li a{
+    text-decoration: none;
+    display:inline-block;
+    border:1px solid #9d9d9d;
+    border-radius: 3px;
+    width:45px;
+    height:45px;
+    line-height: 40px;
+    color:#9d9d9d;
+}
+
+.social-icons ul li a:hover{
+     background:#129CF3;
+     color:antiquewhite; 
+}
+
+.social-icons ul li a i{
+    font-size:20px;
+}
+
+
+/*==============Footer Section=============*/
+
+.footer{
+    background-color: #1a1a1a;
+    padding: 35px 0;
+    border-bottom: 3px solid;
+}
+
+#copyright {
+    width:50%;
+}
+
+#copyright p{
+    color:antiquewhite;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#copyright p a{
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+.scroll-up{
+    
+    text-align: right;
+}
+
+.scroll-up i{
+    padding:10px;
+    background: dodgerblue;
+    font-size: 30px;
+    color: antiquewhite;
+    border-radius: 5px;
+}
