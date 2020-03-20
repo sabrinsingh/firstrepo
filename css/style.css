@@ -23,8 +23,25 @@ p
     transition: all 1s;
 }
 
-.navbar .navbar-nav > li > a{
-    
+.navbar .collapse .navbar-nav > li > a{
+    color:#B5B5B5;
+    font-weight: 600;
+}
+
+.navbar .collapse .navbar-nav > li > a:hover {
+    color:blue;
+}
+
+.navbar .navbar-nav > li > a:focus {
+    color:#B5B5B5;
+}
+
+.navbar-brand{
+    padding: 9px 10px;
+}
+
+.navbar-brand img{
+    transition: all 1100s;
 }
 
 /*header*/
