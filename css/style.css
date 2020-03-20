@@ -20,7 +20,6 @@ p
     background: transparent;
     z-index: 110;
     border: #444;
-    transition: all 1s;
 }
 
 .navbar .collapse .navbar-nav > li > a{
@@ -42,6 +41,10 @@ p
 
 .navbar-brand img{
     transition: all 1100s;
+}
+
+.navbar .collapse .navbar-nav .active a{
+      color:#B5B5B5;
 }
 
 /*header*/
@@ -87,7 +90,7 @@ p
 }
 
 .header-btns .fa:hover {
-    background-color: transparent;
+    background: transparent;
     text-transform: uppercase;
     color:antiquewhite;
     border-color: antiquewhite;
@@ -95,7 +98,7 @@ p
 
 
 .fa-download:hover {
-    background-color: transparent;
+    background: transparent;
     text-transform: uppercase;
     color:antiquewhite;
     border-color: antiquewhite;
