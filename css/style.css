@@ -19,33 +19,41 @@ p
 .navbar{
     background: transparent;
     z-index: 110;
-    border: #444;
+    border-color: #444;
+    transition: all 1s;
 }
 
-.navbar .collapse .navbar-nav > li > a{
+.navbar .navbar-nav > li > a{
     color:#B5B5B5;
-    font-weight: 600;
+    transition: all 1s;
+/*    font-weight: 600;*/
 }
 
-.navbar .collapse .navbar-nav > li > a:hover {
-    color:blue;
+
+.navbar .navbar-nav > li > a:hover {
+    color: #129CF3;
+    transition: all 1s;
 }
 
 .navbar .navbar-nav > li > a:focus {
     color:#B5B5B5;
 }
 
+
 .navbar-brand{
-    padding: 9px 10px;
+    padding: 9px 14Px;
 }
 
 .navbar-brand img{
     transition: all 1100s;
 }
 
-.navbar .collapse .navbar-nav .active a{
-      color:#B5B5B5;
-}
+.navbar  .navbar-nav > .active>a,
+.navbar  .navbar-nav > .active>a:hover,
+.navbar  .navbar-nav > .active>a:focus{
+      color:#129CF3;
+}/*
+*/
 
 /*header*/
 .header{
