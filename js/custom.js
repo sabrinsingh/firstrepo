@@ -142,6 +142,17 @@ $(document).ready(function(){
     } ,10)
 });
 
+//bxslider for screen
+$(document).ready(function(){
+    $('.bxslider').bxSlider({
+        slideWidth: 300,
+        auto: true,
+        minSlides: 1,
+        maxSlides: 4,
+        sliderMargin: 100
+    });
+  });
+
 
 
 
