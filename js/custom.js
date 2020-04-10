@@ -154,6 +154,20 @@ $(document).ready(function(){
   });
 
 
+//counter-up waypoint
+ $(document).ready(function(){
+            $('.counter-num').counterUp({
+                delay: 10,
+                time: 2000
+            });
+        });
+
+//Add Animtaion/ Initiate WOW JS
+$(document).ready(function(){
+                  'use strct';
+                  new WOW().init();
+                  
+                  });
 
 
 

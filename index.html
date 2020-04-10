@@ -7,18 +7,18 @@
     
         <title>Simple Responsive Website </title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        <!--bxslider--->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 
 
         <!--CSS-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--animate Css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--bxslider--->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        
         
         <!--FONT-->
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
@@ -88,8 +88,8 @@
                                 <h1>Simple Responsive Website</h1>
                                 <p>First responsive website by Sabrin Lal Singh</p>  
                                 <div class="header-btns">
-                                    <a href="#" class="btn fa fa-download"> Download</a>
-                                    <a href="#" class="btn fa fa-paper-plane"> Take a Tour</a>
+                                    <a href="#" class="btn fa fa-download wow fadeInLeft"> Download</a>                                   
+                                    <a href="#" class="btn fa fa-paper-plane wow fadeInRight"> Take a Tour</a>
                                     <a href="#"  class="btn fa fa-angle-down" aria-hidden="true"></a>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
             
         <div class="container choose-us">
             <div class="row">
-                <div class="col-md-6 about-iphone">
+                <div class="col-md-6 about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <img src="images/about-iphone.png" alt="about_iphone"/>
                 
                 </div>
@@ -183,7 +183,7 @@
             <div class="testimonial-overlay">
             <div class="container">
                 <div  class="row">
-                    <div class='col-md-12'>
+                    <div class='col-md-12 wow bounceInDown'>
                         <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
                             <!--INDICATORS-->
                             <ol class="carousel-indicators">
@@ -247,7 +247,7 @@
         <section class="features" id="features">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeIn" data-wow-duration="3s">
                          <div class="section-title text-center"> <h1 class="text-center">Features</h1>
                              <div class="features-content">
                                 <p>
@@ -260,8 +260,8 @@
                 </div>
                 <div class="clear-fix"></div>
                 <div class="row inner-wrapper">
-                    <div class="col-md-4">
-                        <div class="left-feature-item">
+                    <div class="col-md-4  wow fadeInLeft" data-wow-duration="1s">
+                        <div class="left-feature-item ">
                     <!--icon-->
                             <div class="left-feature-item-icon">
                                 <i class="fa fa-address-card" aria-hidden="true"></i>
@@ -275,7 +275,7 @@
                      
                         <div class="left-feature-item">
                     <!--icon-->
-                            <div class="left-feature-item-icon">
+                            <div class="left-feature-item-icon ">
                                 <i class="fa fa-id-badge" aria-hidden="true"></i>
                             </div>
                             <h3>COMPANY NAME</h3>
@@ -284,7 +284,7 @@
                             </p>
                         </div>
                                          
-                        <div class="left-feature-item">
+                        <div class="left-feature-item  ">
                     <!--icon-->
                             <div class="left-feature-item-icon">
                                 <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
@@ -297,12 +297,12 @@
                     </div>
                     <!---iphone-->
                     <div class="col-md-4">
-                        <div class="feature-iphone">
+                        <div class="feature-iphone wow bounceIn" data-wow-duraion="1s">
                             <img src="images/iphone-02.png" alt="feature-iphone">
                         </div>
                     </div>
                     
-                     <div class="col-md-4">
+                     <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
                         <div class="right-feature-item">
                     <!--icon-->
                             <div class="right-feature-item-icon">
@@ -355,7 +355,7 @@
                             approach, once all the initial planning and prep work is complete, go live is quick and easy. 
                         </p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow zoomIn">
                         <button class="btn btn-primary btn-purchase-now">Purchase Now</button>
                     </div>
                 </div>
@@ -377,7 +377,7 @@
                     </div>
                     <div class="clear-fix"></div>
                 <div class="screen-slider">
-                   
+                    <div class="container">
                         <div class="row">
                             <div class="bxslider">
                                 <div>
@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                         </div>
-                   
+                    </div>
                 </div>
             </div>
             </div>
@@ -463,7 +463,7 @@
             <div class="container">
                 <div class="row text-center">
                          <div class="col-md-12 text-center">
-                            <img class="text-center" src="images/download-screen.png" alt="downloadscreen" />
+                            <img class="text-center wow fadeInUp" data-wow-duration="1s" src="images/download-screen.png" alt="downloadscreen" />
                         </div>
                     </div> 
                 </div>
@@ -474,7 +474,7 @@
          <!---AVAIABLE ON-->
         <section class="available-on">
             <div class="container">
-                <div class="row">
+                <div class="row wow zoomIn">
                     <div class="col-md-6 text-center">
                         <div class="available-title"><h1 >AVAILABLE ON</h1>
                             <p>
@@ -532,7 +532,7 @@
                 </div>
             </div>
             
-            <div class="contact-us-form">
+            <div class="contact-us-form wow bounceIn">
                  <div class="container">
                      <form role="form">
                          <div class="row">
@@ -552,7 +552,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="social-icons">
+                        <div class="social-icons wow bounceInLeft">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -567,7 +567,7 @@
         <div class="clear-fix"></div>
         
         
-              <!---FOOTER--->
+        <!---FOOTER--->
         <section class="footer">
             
                 <div class="container">
@@ -588,19 +588,28 @@
             
         </section>
         
+        <!--JS--->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <!--            <script src="js/bootstrap.min.js"></script> -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+        <!--    bxSlider JS-->
+            <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+                
+        <!-- counter-up waypoint-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+            <script src="js/jquery.counterup.min.js"></script>
+        
+        <!-- wow js for animation when scroll -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        
+        <!---CUSTOM JS-->
+            <script src="js/custom.js"></script> 
     
         
     </body>
-     <!--JS--->
-        <script src="js/jquery.js"></script> 
-        <script src="js/bootstrap.min.js"></script>
-    
-    <!--    bxSlider JS-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    
-    <!---CUSTOM JS-->
-        <script src="js/custom.js"></script>
+   
     
     
     
